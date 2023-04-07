@@ -21,10 +21,12 @@ target_link_libraries(${TARGET_NAME} PUBLIC
 Qt5::Core
 Qt5::Gui
 Qt5::Widgets
+${GDAL_LIBRARIES}
           )
 
 target_include_directories(
   ${TARGET_NAME} 
   PUBLIC 
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/>
+  $<BUILD_INTERFACE:${GDAL_INCLUDE_DIRS}/>
 )

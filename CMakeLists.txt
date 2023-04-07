@@ -50,6 +50,8 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
+find_package(GDAL REQUIRED)
+
 
 add_subdirectory(src)
 
