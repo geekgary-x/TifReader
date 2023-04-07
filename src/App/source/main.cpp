@@ -1,11 +1,11 @@
 #include <iostream>
 #include <QApplication>
-#include "ExMainWindow.h"
+#include "mainwindow.h"
 int main(int argc, char* argv[])
 {
 	QApplication a(argc, argv);
 
-	ExMainWindow w;
+	MainWindow w;
 
 	w.show();
 
