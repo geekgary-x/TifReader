@@ -1,0 +1,12 @@
+{
+    "cmake.configureOnEdit": false,
+    "cmake.configureArgs" : [
+        "-DCMAKE_PREFIX_PATH=D:/softwares/Qt/5.15.2/msvc2015_64",
+        "-DCMAKE_BUILD_TYPE=Debug",
+        "-DDEBUG_ARGUES=--gtest_filter="
+    ],
+    // "cmake.generator": "Ninja",
+    "cmake.debugConfig": {
+        "args": ["--gtest_filter="]
+    }
+}

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/ExQtMDI/1.png</file>
+        <file>images/ExQtMDI/2.png</file>
+        <file>images/ExQtMDI/3.png</file>
+        <file>images/ExQtMDI/4.png</file>
+        <file>images/ExQtMDI/5.png</file>
+        <file>images/ExQtMDI/6.jpg</file>
+        <file>images/ExQtMDI/7.png</file>
+        <file>images/ExQtMDI/8.png</file>
+        <file>images/ExQtMDI/9.png</file>
+        <file>images/ExQtMDI/10.png</file>
+        <file>images/ExQtMDI/11.png</file>
+        <file>images/ExQtMDI/12.png</file>
+        <file>images/ExQtMDI/13.jpg</file>
+    </qresource>
+</RCC>
